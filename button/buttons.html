@@ -1,5 +1,29 @@
-<h1> Hello World </h1>
+<head>
+  <link rel="stylesheet" href="button.css">
+</head>
 
-<script type="text/javascript" src="index.js">
+<script type="text/javascript">
+  function firstButtonChange(){
+    document.getElementById('text').textContent = "I'm Right"
+  }
 
+  function secondButtonChange(){
+    document.getElementById('text').textContent = "No, I'm right!"
+  }
 </script>
+
+<body>
+  <div id="center">
+    <button type="button" onclick="firstButtonChange()" class="myButton">
+        Click Me!
+    </button>
+  </div>
+
+    <h1 id="text">Who's Right?</h1>
+
+  <div id="center">
+    <button type="button" onclick="secondButtonChange()" class="myButton">
+        Click Me!
+    </button>
+  </div>
+</body>
