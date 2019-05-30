@@ -21,3 +21,7 @@ to hover over me!
     - Your page should also include an h1 tag. If the information in the form is correct, have 
     Javascript change the text in the h1 HTML page. It should include inputs for a username, 
     email, and password. Also a submit button.
+
+- bonus:
+  - Create an HTML page with a form that asks the user to input the value of a sphere's radius. Write 
+  Javascript that gives them back the volume of the sphere.
