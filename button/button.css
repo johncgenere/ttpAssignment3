@@ -1,5 +1,13 @@
 h1 {
   font-family: sans-serif;
+  margin-bottom: 4%;
+  text-align: center;
+  color: white;
+}
+
+body {
+  margin-top: 19%;
+  background-color: grey;
 }
 
 .myButton {
@@ -42,4 +50,11 @@ h1 {
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+
+#center {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
